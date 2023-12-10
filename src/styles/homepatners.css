@@ -1,0 +1,29 @@
+.home-patners-div{
+    margin-top: -5rem;
+}
+
+
+
+@media screen and (max-width: 1120px) {
+    .home-patners-img{
+        width: 8rem;
+    }
+}
+@media screen and (max-width: 910px) {
+    .home-patners-img{
+        width: 6rem;
+    }
+}
+@media screen and (max-width: 710px) {
+    .home-patners-img{
+        width: 4rem;
+    }
+}
+@media screen and (max-width: 490px) {
+    .home-patners-img{
+        width: 2.5rem;
+    }
+    .home-patners-div{
+        margin-top: -7rem;
+    }
+}

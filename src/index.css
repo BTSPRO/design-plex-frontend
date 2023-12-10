@@ -1,0 +1,39 @@
+@import url("https://fonts.cdnfonts.com/css/cabinet-grotesk");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Cabinet Grotesk", sans-serif;
+  color: white;
+}
+.custom-bg {
+  background-image: url(./assets/Group-1000005931.png);
+  background-color: rgba(0, 0, 0, 0.89);
+}
+.primary-text {
+  color: rgba(0, 126, 229, 1);
+}
+.primary-bg-color {
+  background-color: rgba(0, 126, 229, 1);
+}
+.primary-border-color {
+  border-color: rgba(0, 126, 229, 1);
+}
+.custom-btn {
+  padding-inline: 0.6rem;
+  padding-block: 0.3rem;
+  border-radius: 5rem;
+  background-color: black;
+  color: white;
+}
+.active-btn {
+  background-color: white;
+  color: black;
+  padding-inline: 0.6rem;
+  padding-block: 0.3rem;
+  border-radius: 5rem;
+}

@@ -1,0 +1,97 @@
+.home-recent-work-see-more-figma-like {
+  gap: 2rem;
+}
+.home-recent-work-see-more-figma-like-all-p {
+  padding-inline: 0.75rem;
+  padding-block: 0.5rem;
+}
+.home-recent-work-see-more-figma-like {
+  margin-block: 1.25rem;
+}
+.hero-recent-work-dec-heading{
+    margin-bottom: 1.25rem;
+}
+
+
+
+
+
+
+@media screen and (max-width: 830px) {
+  .home-recent-work-heading {
+    font-size: 2.5rem !important;
+  }
+  .home-recent-work-see-more {
+    margin-top: 0.5rem !important;
+  }
+  .home-recent-work-spring {
+    height: 5rem;
+  }
+  .home-recent-work-see-more-figma-like {
+    gap: 1.5rem;
+  }
+  .hero-recent-work-dec-heading {
+    font-size: 2rem !important;
+  }
+  .hero-recent-work-dec-heading-desc {
+    font-size: 1.25rem !important;
+    line-height: 1.75rem !important;
+  }
+}
+@media screen and (max-width: 610px) {
+  .home-recent-work-heading {
+    font-size: 1.8rem !important;
+  }
+  .home-recent-work-see-more {
+    margin-top: 0.2rem !important;
+  }
+  .home-recent-work-see-more-figma-p {
+    margin-left: 1px !important;
+    margin-right: 1px !important;
+  }
+  .home-recent-work-see-more-figma-like {
+    gap: 1rem;
+  }
+}
+@media screen and (max-width: 540px) {
+  .home-recent-work-heading {
+    font-size: 1.5rem !important;
+  }
+  .home-recent-work-see-more-text {
+    font-size: 0.8rem !important;
+  }
+  .home-recent-work-see-more {
+    margin-top: 0 !important;
+  }
+  .home-recent-work-see-more-img {
+    width: 1rem !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .home-recent-work-div {
+    padding-inline: 2rem !important;
+  }
+}
+@media screen and (max-width: 450px) {
+  .home-recent-work-see-more-figma-like-all-p {
+    padding-block: 0.2rem !important;
+    padding-inline: 0.5rem !important;
+  }
+  .hero-recent-work-dec-heading {
+    font-size: 1.5rem !important;
+    line-height: 1.5rem !important;
+    margin-bottom: 1rem !important;
+  }
+  .hero-recent-work-dec-heading-desc {
+    font-size: 1rem !important;
+    line-height: 1.15rem !important;
+  }
+}
+@media screen and (max-width: 390px) {
+  .home-recent-work-div {
+    padding-inline: 0.5rem !important;
+  }
+  .home-recent-work-see-more-figma-like {
+    margin-block: 0.7rem !important;
+  }
+}

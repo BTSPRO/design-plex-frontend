@@ -1,0 +1,167 @@
+.hero-img1-to-img4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -24rem;
+}
+.hero-img2-and-img3-div {
+  display: flex;
+  align-items: center;
+  gap: 24rem;
+  position: relative;
+  top: 4rem;
+  right: 7rem;
+  z-index: 10;
+}
+.hero-img1 {
+  width: 25%;
+  position: relative;
+  right: 5rem;
+}
+.hero-img2 {
+  width: 41.666667%;
+  position: relative;
+  right: 2.5rem;
+}
+.hero-img3 {
+  width: 41.666667%;
+  position: relative;
+  left: 2.5rem;
+}
+.hero-img4 {
+  width: 25%;
+  position: relative;
+  left: 6rem;
+}
+.hero-saly-div {
+  position: relative;
+  bottom: 13rem;
+  left: 24rem;
+}
+.hero-saly-img {
+  width: 41.666667%;
+  position: relative;
+  left: 4rem;
+}
+.hero-current-status-div {
+  height: 175px;
+  width: 100%;
+  position: absolute;
+  bottom: 4rem;
+  background-color: black;
+}
+.spring-img-hero {
+  position: absolute;
+  z-index: 80;
+  bottom: 2rem;
+}
+.custom-width-all4img-inone{
+    transform: scale(1.1);
+    margin-top: 20px;
+    margin-bottom: -50px;
+}
+
+@media screen and (min-width: 1460px) {
+  .spring-img-hero {
+    width: 15%;
+  }
+}
+
+@media screen and (max-width: 1460px) {
+  .hero-saly-img {
+    width: 35%;
+    left: 6rem;
+    top: 5rem;
+  }
+  .hero-current-status-div {
+    height: 175px;
+    width: 100%;
+    position: absolute;
+    top: -8rem;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .hero-saly-img {
+    left: 5rem;
+    top: 10rem;
+  }
+  .hero-current-status-div {
+    height: 150px;
+    top: -5rem;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .hero-saly-img {
+    width: 40%;
+    left: 0;
+    top: 7rem;
+  }
+  .hero-current-status-div {
+    height: 140px;
+    top: -7rem;
+  }
+}
+
+@media screen and (max-width: 1190px) {
+  .hero-saly-img {
+    top: 9.5rem;
+  }
+  .hero-current-status-div {
+    height: 140px;
+    top: -4.5rem;
+  }
+  .spring-img-hero {
+    bottom: 0;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .hero-saly-img {
+    left: -3rem;
+    top: 12rem;
+  }
+  .hero-current-status-div {
+    height: 120px;
+    top: -1.5rem;
+  }
+}
+
+@media screen and (max-width: 1010px) {
+  .hero-saly-img {
+    left: -4.5rem;
+    top: 14rem;
+  }
+  .hero-current-status-div {
+    height: 120px;
+    position: relative;
+    top: 0;
+  }
+  .spring-img-hero {
+    bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .hero-img1 {
+    width: 30%;
+  }
+  .hero-img2 {
+    width: 50%;
+  }
+  .hero-img3 {
+    width: 50%;
+    left: -5rem;
+  }
+  .hero-img4 {
+    width: 30%;
+    left: 4rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .hero-saly-img {
+    left: -7rem;
+  }
+}
