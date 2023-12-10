@@ -38,18 +38,18 @@ const NavBar = () => {
                         <div className='flex flex-col justify-center items-center' style={{width: '98vw'}}>
                             <div className='z-10 nav-somethign flex w-10/12 justify-between items-center'>
                                 <div className='flex w-full justify-around'>
-                                    <p className='text-xl font-medium'>Services</p>
-                                    <p className='text-xl font-medium'>our work</p>
-                                    <p className='text-xl font-medium'>Review</p>
+                                    <p className='text-xl font-medium cursor-pointer'>Services</p>
+                                    <p className='text-xl font-medium cursor-pointer'>Our work</p>
+                                    <p className='text-xl font-medium cursor-pointer'>Review</p>
                                 </div>
-                                <p className='text-4xl font-bold'>Dezign<span className='font-extrabold primary-text'>Plex</span></p>
+                                <p className='text-4xl font-bold cursor-pointer'>Dezign<span className='font-extrabold primary-text'>Plex</span></p>
                                 <div className='flex w-full justify-around'>
-                                    <p className='text-xl font-medium'>FAQs</p>
-                                    <p className='text-xl font-medium'>Contact</p>
-                                    <p className='text-xl font-medium'>Portfolio</p>
+                                    <p className='text-xl font-medium cursor-pointer'>FAQs</p>
+                                    <p className='text-xl font-medium cursor-pointer'>Contact</p>
+                                    <p className='text-xl font-medium cursor-pointer'>Portfolio</p>
                                 </div>
                             </div>
-                            <img className='relative mx-20 bottom-20 navbar-img' src={NavbarBg} alt=" " />
+                            <img className='relative mx-20 bottom-20 h-[5.5rem] navbar-img' src={NavbarBg} alt=" " />
                         </div>
                     </div>
                 </div>
