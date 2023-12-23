@@ -1,28 +1,19 @@
-import OurServiceBranding from '../assets/rectangle-branding.svg'
-import OurServiceDesign from '../assets/rectangle-design.svg'
-import OurServiceDevelopment from '../assets/rectangle-development.svg'
-import TickIcon from '../assets/tick-icon.svg'
-import Portfolio1Img from '../assets/rectangle-portfolio1.svg'
-import Portfolio2Img from '../assets/rectangle-portfolio2.svg'
-import Portfolio3Img from '../assets/rectangle-portfolio3.svg'
-import Customer1Img from '../assets/customer1.svg'
-import Customer2Img from '../assets/customer2.svg'
-import Customer3Img from '../assets/customer3.svg'
-import WhatsappIcon from '../assets/whatsapp-icon.svg'
-import TwitterIcon from '../assets/twitter-icon.svg'
-import FbIcon from '../assets/facebook-icon.svg'
-import InstaIcon from '../assets/instagram-icon.svg'
-import TelegramIcon from '../assets/telegram-icon.svg'
-import LinkedInIcon from '../assets/linkedin-icon.svg'
-
-
-
-
-
-
-
-
-
+import OurServiceBranding from "../assets/rectangle-branding.svg";
+import OurServiceDesign from "../assets/rectangle-design.svg";
+import OurServiceDevelopment from "../assets/rectangle-development.svg";
+import TickIcon from "../assets/tick-icon.svg";
+import Portfolio1Img from "../assets/rectangle-portfolio1.svg";
+import Portfolio2Img from "../assets/rectangle-portfolio2.svg";
+import Portfolio3Img from "../assets/rectangle-portfolio3.svg";
+import Customer1Img from "../assets/customer1.svg";
+import Customer2Img from "../assets/customer2.svg";
+import Customer3Img from "../assets/customer3.svg";
+import WhatsappIcon from "../assets/whatsapp-icon.svg";
+import TwitterIcon from "../assets/twitter-icon.svg";
+import FbIcon from "../assets/facebook-icon.svg";
+import InstaIcon from "../assets/instagram-icon.svg";
+import TelegramIcon from "../assets/telegram-icon.svg";
+import LinkedInIcon from "../assets/linkedin-icon.svg";
 
 export const OurServicesCardDatas = [
   {
@@ -353,5 +344,78 @@ export const SocialMediaIcons = [
     id: 6,
     imageURL: TelegramIcon,
     title: "Telegram",
+  },
+];
+
+export const Designdata = [
+  {
+    id: 1,
+    designname: "What type of design do you need?",
+    type: "Your design type",
+    designTypes: [
+      { id: 1, name: "App Design" },
+      { id: 2, name: "Web Design" },
+      { id: 3, name: "Software Design" },
+      { id: 4, name: "Dashboard Design" },
+      { id: 5, name: "Game Interfaces" },
+      { id: 6, name: "Wireframing" },
+      { id: 7, name: "Prototyping" },
+      { id: 8, name: "User Flows" },
+      { id: 9, name: "Transition Designs" },
+      { id: 10, name: "Navigation Design" },
+      { id: 11, name: "Icons and Symbols" },
+    ],
+  },
+];
+
+export const developerdata = [
+  {
+    id: 2,
+    designname: "What type of development do you need?",
+    type: "Your Branding type",
+    designTypes: [
+      { id: 1, name: "Mobile App Development" },
+      { id: 2, name: "Software Development" },
+      { id: 3, name: "E-commerce Development" },
+      { id: 4, name: "Email Development" },
+      { id: 5, name: "Game Development" },
+      { id: 6, name: "Database Development" },
+      { id: 7, name: "API Development" },
+      { id: 8, name: "Systems Development" },
+      { id: 9, name: "Cloud & DevOps" },
+      { id: 10, name: "Content Management System (CMS) Development" },
+      { id: 11, name: "Desktop Application Development" },
+      { id: 12, name: "AI & Machine Learning Development" },
+      { id: 13, name: "Blockchain Development" },
+      { id: 14, name: "Network Development" },
+      { id: 15, name: "Security Development" },
+      { id: 16, name: "QA & Testing" },
+    ],
+  },
+];
+export const fullbrandingdata = [
+  {
+    id: 3,
+    designname: "What type of Branding do you need?",
+    type: "Your Branding type",
+    designTypes: [
+      { id: 1, name: "Logo Design" },
+      { id: 2, name: "Color Palette" },
+      { id: 3, name: "Typography" },
+      { id: 4, name: "Iconography" },
+      { id: 5, name: "Pattern Design" },
+      { id: 6, name: "Business Stationery" },
+      { id: 7, name: "Packaging Design" },
+      { id: 8, name: "Advertisement Graphics" },
+      { id: 9, name: "Social Media Graphics" },
+      { id: 10, name: "Web Graphics" },
+      { id: 11, name: "Signage" },
+      { id: 12, name: "Brand Guidelines" },
+      { id: 13, name: "Event Material" },
+      { id: 14, name: "Promotional Items" },
+      { id: 15, name: "Presentation Templates" },
+      { id: 16, name: "Infographics" },
+      { id: 17, name: "Pitch Presentation" },
+    ],
   },
 ];
